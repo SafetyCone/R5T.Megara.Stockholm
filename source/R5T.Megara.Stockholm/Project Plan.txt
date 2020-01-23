@@ -1,0 +1,4 @@
+R5T.Megara.Stockholm - A Stockholm-based IFileSerializer<T> service implementation for the Megara project.
+
+Goals
+
