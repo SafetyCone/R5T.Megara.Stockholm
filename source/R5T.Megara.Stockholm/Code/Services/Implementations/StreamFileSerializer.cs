@@ -1,12 +1,15 @@
 ﻿using System;
+using System.IO;
 
-using R5T.Magyar.IO;
 using R5T.Stockholm;
+
+using R5T.T0064;
 
 
 namespace R5T.Megara.Stockholm
 {
-    public class StreamFileSerializer<T> : IFileSerializer<T>
+    [ServiceImplementationMarker]
+    public class StreamFileSerializer<T> : IFileSerializer<T>, IServiceImplementation
     {
         private IStreamSerializer<T> StreamSerializer { get; }
 

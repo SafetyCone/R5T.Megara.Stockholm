@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Megara.Stockholm.Constr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Megara.Stockholm.Testing", "R5T.Megara.Stockholm.Testing\R5T.Megara.Stockholm.Testing.csproj", "{599263BE-D671-426E-A393-72F26F411D2F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{4B77B73D-6975-459D-9BF0-40D2D864EC97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{D7B05CC4-79E8-45E6-BD24-9B5E71C99DB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{599263BE-D671-426E-A393-72F26F411D2F}.Release|x64.Build.0 = Release|Any CPU
 		{599263BE-D671-426E-A393-72F26F411D2F}.Release|x86.ActiveCfg = Release|Any CPU
 		{599263BE-D671-426E-A393-72F26F411D2F}.Release|x86.Build.0 = Release|Any CPU
+		{D7B05CC4-79E8-45E6-BD24-9B5E71C99DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B05CC4-79E8-45E6-BD24-9B5E71C99DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B05CC4-79E8-45E6-BD24-9B5E71C99DB7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D7B05CC4-79E8-45E6-BD24-9B5E71C99DB7}.Debug|x64.Build.0 = Debug|Any CPU
+		{D7B05CC4-79E8-45E6-BD24-9B5E71C99DB7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D7B05CC4-79E8-45E6-BD24-9B5E71C99DB7}.Debug|x86.Build.0 = Debug|Any CPU
+		{D7B05CC4-79E8-45E6-BD24-9B5E71C99DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B05CC4-79E8-45E6-BD24-9B5E71C99DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B05CC4-79E8-45E6-BD24-9B5E71C99DB7}.Release|x64.ActiveCfg = Release|Any CPU
+		{D7B05CC4-79E8-45E6-BD24-9B5E71C99DB7}.Release|x64.Build.0 = Release|Any CPU
+		{D7B05CC4-79E8-45E6-BD24-9B5E71C99DB7}.Release|x86.ActiveCfg = Release|Any CPU
+		{D7B05CC4-79E8-45E6-BD24-9B5E71C99DB7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7B05CC4-79E8-45E6-BD24-9B5E71C99DB7} = {4B77B73D-6975-459D-9BF0-40D2D864EC97}
 	EndGlobalSection
 EndGlobal
